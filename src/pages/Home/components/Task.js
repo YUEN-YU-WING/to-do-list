@@ -5,7 +5,7 @@ const Task = ({ title, date, time, id, handleRemove }) => {
                 <p>{title}</p>
                 {!date ? null : <p>{`${date} ${time}`}</p>}
             </div>
-            <button onClick={() => handleRemove(id)}>刪除</button>
+            <button onClick={() => handleRemove(id)} className="remove">刪除</button>
         </div>
     )
 }

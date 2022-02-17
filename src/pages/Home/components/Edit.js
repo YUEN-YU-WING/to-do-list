@@ -24,7 +24,7 @@ const Edit = ({ newTask, handleChange, handleSubmit }) => {
                     value={newTask.time || ""}
                     onChange={handleChange}
                 />
-                <button type="submit">新增</button>
+                <button type="submit" className="add">新增</button>
             </form>
         </div>
     )

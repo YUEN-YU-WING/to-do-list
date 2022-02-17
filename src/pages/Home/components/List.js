@@ -2,7 +2,7 @@ import Item from "./Task"
 
 const List = ({ allTask, handleRemove }) => {
     return (
-        <div>
+        <div className="list">
             {
                 allTask.map((task) => {
                     const { title, date, time, id } = task;
